@@ -1,12 +1,10 @@
-/*  your css code here. If applicable */
-/* Gallery container */
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-end; /* ✅ Required for test */
 }
 
-/* Image styling */
 .cards img {
   margin: 10px;
   border: 3px solid #000;
